@@ -45,15 +45,15 @@ headers:
       icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgicon-remixicon.svg"
     }
     tags: {
-      message: "这里是一些展示的标签",
+      message: "タグ一覧",
       icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgtags.svg"
     }
     links: {
-      message: "我和我的小伙伴们",
+      message: "本ブログの著者たち",
       icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imga20r7-cftji.svg"
     }
     categories: {
-      message: "文章分类",
+      message: "カテゴリ一覧",
       icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgblogmyCategory.svg"
     }
 
