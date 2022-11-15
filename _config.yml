@@ -88,6 +88,18 @@ linksList:
     link: 'https://github.com/yupix',
     image: '/image/icon/yupix.webp'
   }
+  - {
+    title: 'あき',
+    intro: '主にAyuskeyの開発などを行っています。フロントエンドかバックエンド開発者かでいうとバックエンド開発者です。',
+    link: 'https://kr.akirin.xyz/@aki',
+    image: '/image/icon/aki.webp'
+  }
+  - {
+    title: 'TeamPimcServer',
+    intro: '本Blogを運営しているチームのアカウントです。Blogに関する告知などはこのアカウントで行います。',
+    link: 'https://discord.gg/CcT997U',
+    image: '/image/icon/pimc-logo.svg'
+  }
 
 pagination:
   previous: '前へ'
