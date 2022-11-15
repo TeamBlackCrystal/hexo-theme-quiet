@@ -1,15 +1,15 @@
 # 网站标题
-title: Hexo主题-Quiet主题-Hexo扁平化主题安装
+title: あゆき's BLOG
 # 网站标题后缀
-suffix: Quiet
+suffix: あゆき's BLOG
 # 作者名称
-author: Joey
+author: yupix
 # 网站关键字
-keyword: hexo主题,hexo扁平化主题,Quiet主题
+keyword: hexo,ayuki's blog
 #false是否开启文章背景图显示(随机图片)
 is_article_img: true  
 # 网站描述
-web_description: 描述
+web_description: あきとゆぴによる気ままな共同ブログ
 # 首页文章布局 默认 'card' 可选择 'block-card'
 home_layout: card
 # 导航名称
@@ -30,18 +30,18 @@ menus:
   about: /about
   
 # logo
-logo: /image/logo.png
+logo: /image/logo.webp
 # 网页标签上那个小图标 一定要用本地存储
 icon: /image/favicon.ico
 # 每个页面的展示的图标和一句话
 headers:
     home: {
-      message: "首页这里应该有一句话，你想想写点什么？",
-      icon: "/image/logo.png"
+      message: "A STUDENT WITH IDEALS AND BELIEFS.",
+      icon: "/image/logo.webp"
     }
     archives: {
       # 这里会替换掉两个变量{ year 年，number 总数 } 当然也可以不写这两个变量
-      message: "居然用了 year 年一共才写了 number 篇文章!",
+      message: "year 年で number 個の記事を作成しました",
       icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgicon-remixicon.svg"
     }
     tags: {
@@ -83,10 +83,10 @@ bottomIcon:
 # 友情链接
 linksList:
   - {
-    title: 'Quiet',
-    intro: '收藏回忆与分享技术的地方',
-    link: 'https://github.com/79E/hexo-theme-quiet',
-    image: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgIMG_7327.jpeg'
+    title: 'yupix',
+    intro: '重めの人',
+    link: 'https://github.com/yupix',
+    image: '/image/icon/yupix.webp'
   }
 
 pagination:
