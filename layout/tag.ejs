@@ -18,7 +18,7 @@
     })
 %>
 <div class="tag">
-    <%- partial('_widget/header_body',{message:"文章标签："+page.tag,icon:theme.headers.tags.icon}) %>
+    <%- partial('_widget/header_body',{message:"記事タグ："+page.tag,icon:theme.headers.tags.icon}) %>
     <div class="tag-content" id="content">
         <div class="tag-content-data">
             <%- partial('_widget/grouping',{data:years,keys:Object.keys(years).reverse()}) %>
