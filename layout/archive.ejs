@@ -1,6 +1,6 @@
 
 <% if(is_archive()){ %>
-    <% page.title = __('文章归档') %>
+    <% page.title = __('アーカイブ') %>
     <%- partial('_partial/header',{name:'archive'}) %>
     <%
         var years = {};
@@ -17,7 +17,7 @@
         });
     %>
 <% }else if(is_category()){ %>
-    <% page.title = __("文章分类：" + page.category) %>
+    <% page.title = __("記事の分類：" + page.category) %>
     <%- partial('_partial/header',{name:'categories'}) %>
     <%
         var years = {};
