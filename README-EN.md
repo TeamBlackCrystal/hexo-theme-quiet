@@ -180,7 +180,7 @@ tags:
 excerpt: A simple and generous flat theme for Hexo - Quiet 
 toc: false
 date: 2020-11-03 20:33:36
-cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
+custom_cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
 ```
 
 **Explanation**
