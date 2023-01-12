@@ -166,7 +166,8 @@ You need to add an header when publishing an article:
 ```
 title: A simple and flat Hexo static theme blog-Quiet 
 comments: false
-categories: Projects
+categories:
+  - Projects
 aubot: Cange-Q
 aubot_link: 'https://github.com/79E/hexo-theme-quiet'
 tags:

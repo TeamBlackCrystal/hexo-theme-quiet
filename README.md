@@ -169,7 +169,8 @@ layout: categories
 ```
 title: 一个简约扁平化的Hexo静态主题博客-Quiet
 comments: false
-categories: 项目案例
+categories:
+  - 一般
 aubot: Cange-Q
 aubot_link: 'https://github.com/79E/hexo-theme-quiet'
 tags:
