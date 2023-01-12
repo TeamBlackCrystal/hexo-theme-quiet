@@ -6,7 +6,7 @@
 				<% page.posts.each(function (post,i) { %>
 					<a href="<%- url_for(post.path) %>" class="post-block-content">
 						<% if(post.cover){ %>
-							<img src="<%= post.cover %>" alt="Quiet">
+							<img src="<%= post.custom_cover %>" alt="Quiet">
 						<% }else{ %>
 							<img src="<%- theme.default_cover %>" alt="Quiet">
 						<% } %>
@@ -38,8 +38,8 @@
 							<h2 class="post-card-title">
 								<%= post.title %>
 							</h2>
-							<% if(post.cover){ %>
-								<img src="<%= post.cover %>" alt="Quiet">
+							<% if(post.custom_cover){ %>
+								<img src="<%= post.custom_cover %>" alt="Quiet">
 							<% }else{ %>
 								<img src="<%- theme.default_cover %>" alt="Quiet">
 							<% } %>
