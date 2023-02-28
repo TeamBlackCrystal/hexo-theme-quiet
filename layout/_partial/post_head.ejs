@@ -33,7 +33,7 @@
                         </g>
                     </svg>
                 <% } %>
-                <span class="post-header-info-author-text"> <a href="<%- page.aubot_link ? page.aubot_link : '/links' %>"><%- page.aubot ? page.aubot : theme.author %></a></span>
+                <span class="post-header-info-author-text"> <a href="<%- page.aubot_link ? page.aubot_link : '/links' %>"><%- page.author ? page.author : theme.author %></a></span>
                 <div class="post-header-info-author-categories">
                     <% if (page.categories) { %>
                     <% page.categories.data.map((cat)=>{ %>
